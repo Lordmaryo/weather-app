@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>weather app</h1>
+        <form>
+            <input type="text" id="city" placeholder="Enter City">
+            <button type="submit" id="btn">
+                <i class="ri-search-line"></i> Get weather
+            </button>
+        </form>
+        <div class="weather-data">
+            <div class="icon">
+                <!-- <img src="http://openweathermap.org/img/wn/01d.png" 
+                alt="weather icon"> -->
+            </div>
+            <div class="temperature"></div>
+            <div class="description"></div>
+            <div class="details">
+                <!-- <div>feels like 22°C</div>
+                <div>humidity: 40%</div>
+                <div>wind speed: 5m/s</div> -->
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
